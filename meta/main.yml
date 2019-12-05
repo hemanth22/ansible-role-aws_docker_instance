@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  role_name: docker_aws_instance
+  author: hemanth22
+  description: This playbook help you to connect to aws and create aws EC2 instance.
+  license: GPLv3
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 7
+  galaxy_tags:
+    - ec2
+    - aws
+    - docker
+    - instance
+    - centos
+
+dependencies: []

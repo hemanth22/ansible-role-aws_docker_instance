@@ -1,0 +1,13 @@
+---
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: false
+  vars:
+    keypair: hemanth
+    instance_type: t2.micro
+    security_group: sg-0fa454335a1f75b19
+    image: ami-01ed306a12b7d1c96
+    region: us-west-2
+  roles:
+    - hemanth22.docker_aws_instance
