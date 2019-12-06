@@ -1,7 +1,9 @@
 docker_aws_instance
 =========
 
-This ansible role is to create an CentOS
+This ansible role is to create an CentOS  
+
+[![Build Status](https://travis-ci.org/hemanth22/ansible-role-aws_docker_instance.svg?branch=master)](https://travis-ci.org/hemanth22/ansible-role-aws_docker_instance)
 
 Requirements
 ------------
