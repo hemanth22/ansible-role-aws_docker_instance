@@ -10,4 +10,4 @@
     image: ami-01ed306a12b7d1c96
     region: us-west-2
   roles:
-    - hemanth22.docker_aws_instance
+    - hemanth22.aws_docker_instance

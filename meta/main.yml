@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: docker_aws_instance
+  role_name: aws_docker_instance
   author: hemanth22
   description: This playbook help you to connect to aws and create aws EC2 instance.
   license: GPLv3
