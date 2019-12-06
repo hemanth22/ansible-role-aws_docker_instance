@@ -5,7 +5,7 @@ sudo: required
 
 env:
   global:
-    - ROLE_NAME: ci
+    - ROLE_NAME: docker_aws_instance
   matrix:
     - MOLECULE_DISTRO: centos7
 
