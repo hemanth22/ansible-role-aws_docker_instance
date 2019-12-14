@@ -17,6 +17,9 @@ platforms:
     pre_build_image: true
 provisioner:
   name: ansible
+  env: EC2 Access
+    ANSIBLE_KEY: $access_key
+    ANSIBLE_VAL: $secret_key
   lint:
     name: ansible-lint
   playbooks:
@@ -28,13 +31,13 @@ scenario:
     - destroy
     # - dependency
     - syntax
-    # - create
+    - create
     # - prepare
-    # - converge
-    # - idempotence
-    # - side_effect
-    # - verify
-    # - destroy
+    - converge
+    - idempotence
+    - side_effect
+    - verify
+    - destroy
 verifier:
   name: testinfra
   lint:
