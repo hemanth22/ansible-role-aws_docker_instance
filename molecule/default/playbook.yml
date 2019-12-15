@@ -8,7 +8,7 @@
     instance_type: t2.micro
     security_group: sg-0fa454335a1f75b19
     region: us-west-2
-    ec2_access_key: "{{ ANSIBLE_KEY }}"
-    ec2_secret_key: "{{ ANSIBLE_VAL }}"
+    ec2_access_key: "{{ lookup('env', 'ANSIBLE_KEY') }}"
+    ec2_secret_key: "{{ lookup('env', 'ANSIBLE_VAL') }}"
   roles:
     - hemanth22.aws_docker_instance
