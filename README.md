@@ -32,12 +32,13 @@ Including an example of how to use your role (for instance, with variables passe
   gather_facts: false
   vars:
     keypair: hemanth
-    instance_type: t2.micro
-    security_group: sg-0fa454335a1f75b19
-    image: ami-01ed306a12b7d1c96
-    region: us-west-2
-    ec2_access_key: ABCEFG
-    ec2_secret_key: ABCEFG+XZ
+    instance_type: give the instance_type
+    security_group: Give your security group information
+    vpc_subnet_id: give your vpc subnet id
+    volume_size: Enter volume_size
+    region: us-west-2 (CentOS image which i have chosen is working in us-west-2 better try this region)
+    ec2_access_key: Give here aws_access_key
+    ec2_secret_key: Give here aws_secret_key
   roles:
     - hemanth22.docker_aws_instance
 ```
