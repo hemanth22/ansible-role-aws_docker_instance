@@ -31,7 +31,7 @@ Including an example of how to use your role (for instance, with variables passe
   become: true
   gather_facts: false
   vars:
-    keypair: hemanth
+    keypair: Give your exiting keypair name here
     instance_type: give the instance_type
     security_group: Give your security group information
     vpc_subnet_id: give your vpc subnet id
